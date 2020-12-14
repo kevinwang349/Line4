@@ -18,7 +18,7 @@ public class Line4 {
 	public static void main(String[] args) throws LoginException {
 		// TODO Auto-generated method stub
 
-		client = JDABuilder.createDefault("NzU3Njk4NTM3OTE0ODkyMjg4.X2kLwA.YlwciaHhs41SHCmqjP8kfwzeNZM").build();
+		client = JDABuilder.createDefault("token").build();
 		client.getPresence().setStatus(OnlineStatus.IDLE);
 		client.getPresence().setActivity(Activity.watching("trains"));
 		
