@@ -18,7 +18,7 @@ public class Line4 {
 	public static void main(String[] args) throws LoginException {
 		// TODO Auto-generated method stub
 
-		client = JDABuilder.createDefault("no").build(); // login as a bot user
+		client = JDABuilder.createDefault("token").build(); // login as a bot user
 		client.getPresence().setStatus(OnlineStatus.IDLE); // set the bot's status to idle
 		client.getPresence().setActivity(Activity.watching("trains")); // set the bot's status to "Watching trains"
 		
